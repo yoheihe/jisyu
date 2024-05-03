@@ -1,5 +1,8 @@
 export default function Test(props) {
  return (
-    console.log(props.check_number)
- );
+   <div>
+    {props.check_number}
+    {props.sample}
+   </div>
+ );                        c
 } 

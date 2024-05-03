@@ -7,6 +7,7 @@ function App() {
   return (
     <Test
     check_number="1"
+    sample="こんにちは"
     />
   );
 };
