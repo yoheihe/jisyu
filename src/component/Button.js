@@ -8,7 +8,7 @@ export const Button = (props) => {
       {/* <div>
         こんにちは。
       </div> */}
-            <button onClick={() => props.test(props.value)}>
+            <button onClick={() => props.inputButton(props.value)}>
             {props.value}
         </button>
       </>
